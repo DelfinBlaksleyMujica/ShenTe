@@ -1,0 +1,432 @@
+* {
+    margin: 2px;
+    color: #312e2e;
+
+}
+
+li a:hover {
+    text-decoration:#a9803c underline;
+ 
+}
+
+h1 {
+    color: #312e2e;
+}
+
+body {
+    background-color: #FFFCF8;
+}
+
+.logo {
+    width: 150px;
+    height: 150px
+}
+
+
+/* clase por defecto que me molesta en la alineacion de los titulos de los productos*/
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background-color: #FFFCF8;
+}
+
+
+*+address,
+*+dl,
+*+fieldset,
+*+figure,
+*+ol,
+*+p,
+*+pre,
+*+ul {
+    margin-top: 00px;
+}
+
+address,
+dl,
+fieldset,
+figure,
+ol,
+p,
+pre,
+ul {
+    margin: 0 0 0px 0;
+}
+
+.uk-h3,
+h3 {
+    font-size: 1.5rem;
+    line-height: 1.4;
+
+}
+
+.uk-input,
+.uk-select,
+.uk-textarea {
+
+    width: 100%;
+    border: 0 none;
+    padding: 0 10px;
+    background: #fff;
+    color: #666;
+    border: 1px solid #e5e5e5;
+    transition: .2s ease-in-out;
+    transition-property: color, background-color, border;
+}
+
+
+/* index    grid productos e infusiones*/
+.index__productos__containerProductos {
+    display: flex;
+    justify-content: center;
+}
+
+
+.index__productos__container__productos__Titulos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.index__productos__container__productos__Titulos p:hover {
+    text-decoration:#a9803c underline;
+   
+}
+
+
+.index__Background__Cards__Productos {
+    background-color: #EEE8DC;
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    display: block;
+    text-align: center;
+
+
+}
+
+/* index como comprar mayorista y productos*/
+.index__mayoristas__container {
+    background-color: #efc7c8;
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    text-align: center;
+    margin-top: 15px;
+}
+
+.index__eventos__container {
+    background-color: rgba(24, 60, 150, 0.333);
+    color: #666;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.index__comunicate__container__botton {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+
+}
+
+.index__comunicate__container__botton a {
+
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.index__comunicate__botton {
+
+    background-color: #a9803c;
+    color: rgb(255, 255, 255);
+    border: 1px solid #e5e5e5;
+
+
+}
+
+
+
+
+
+/*footer*/
+.index__footer__comunicate__imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.index__footer__comunicate__container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer__container {
+    background-color: #eee8dc;
+}
+
+.footer__titulos__border-botton {
+    border-bottom: black solid 1px;
+}
+
+.contact__titulo__border-botton {
+    border-bottom: #a9803c solid 1px;
+}
+
+/*otra seccion
+
+Contacto*/
+.contact__section__map__container {
+    width: 100%;
+}
+
+.contact__map__container {
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    width: 100%;
+}
+
+.inputsForm {
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: #eee8dc;
+   
+}
+
+.inputsFormEmail {
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: #eee8dc;
+    width: 800px;
+}
+
+.inputsFormTelefono {
+    margin-bottom: 0;
+    border-radius: 10px;
+    background-color: #eee8dc;
+    width: 800px;
+    margin-left: 35px;
+}
+
+.contact__form__container__boton__enviar {
+    display: flex;
+    justify-content: flex-end;
+}
+.flexEnd{display: flex; justify-content: flex-end;}
+.contact__form__container__boton__enviar button {
+    color: rgb(255, 255, 255);
+    border: 1px solid #e5e5e5;
+    background-color: #a9803c;
+}
+
+
+.contact__form__container {
+    width: 50%;
+}
+
+.contact__informacion__container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact__form__titulo__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.contact__form__container__titulo {
+    padding-left: 38px;
+}
+
+.contact__form__emailTelefono__container {
+    display: flex;
+    width: 100%;
+}
+
+
+
+
+
+
+/*queries*/
+
+@media screen and (max-width:876px) {
+
+    .inputsFormTelefono {
+
+        margin-left: 5px;
+    }
+
+}
+
+@media screen and (max-width:839px) {
+
+    .contact__form__emailTelefono__container {
+
+        flex-direction: column;
+
+
+    }
+
+    .contact__form__emailTelefono__container {
+
+        align-items: flex-end;
+    }
+
+    .inputsFormTelefono {
+        margin-block: 20px;
+    }
+
+}
+
+@media screen and (max-width:839px) {
+
+    .contact__form__emailTelefono__container {
+
+        flex-direction: column;
+
+
+    }
+
+    .contact__form__emailTelefono__container {
+
+        align-items: flex-end;
+    }
+
+    .inputsFormTelefono {
+        margin-block: 20px;
+    }
+
+}
+
+@media screen and (max-width:688px) {
+
+    .uk-navbar-nav>li>a {
+        font-size: 10px;
+
+    }
+
+    .uk-navbar-nav {
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+}
+
+@media screen and (max-width:525px) {
+
+    .uk-navbar-nav>li>a {
+        font-size: 10px;
+    }
+
+    .uk-navbar-nav {
+        display: flex;
+        gap: 10px;
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width:461px) {
+    .contact__form__container__titulo {
+        padding-left: 0px;
+    }
+
+}
+
+@media screen and (max-width:460px) {
+
+    .uk-navbar-nav>li>a {
+        font-size: 9px;
+    }
+
+    .uk-navbar-nav {
+
+        gap: 8px;
+
+    }
+
+    .logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .uk-grid>* {
+        padding-left: 0px;
+
+    }
+
+    .marginproductos {
+        margin-left: 4px;
+    }
+
+    .index__mayoristas__container {
+
+        margin-left: 34px;
+    }
+
+    .index__eventos__container {
+        margin-left: 34px;
+    }
+}
+
+@media screen and (max-width:394px) {
+
+    .uk-navbar-nav>li>a {
+        font-size: 8px;
+    }
+
+    .uk-navbar-nav {
+
+        gap: 7px;
+
+    }
+
+    .logo {
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+
+
+/*TIPOGRAFIAS*/
+
+
+
+h1,h3,h4,a {
+    font-family: "Noto Serif Bold";
+}
+
+
+p , button { 
+    font-family: "Poopins Black";
+}

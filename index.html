@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,100&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Shen té || Inicio </title>
+</head>
+
+<body>
+    <header>
+        <!--
+        empieza navbar
+    -->
+        <nav class="uk-navbar-container" uk-navbar>
+
+            <div class="uk-navbar-left">
+
+                <ul class="uk-navbar-nav">
+                    <li class="uk-active"><a href="#"><img class="logo" src="./imagenes/logo_shen.svg" 
+                                alt=""></a></li>
+                </ul>
+
+            </div>
+
+            <div class="uk-navbar-right">
+
+                <ul class="uk-navbar-nav">
+
+                    <li>
+                        <a href="#Productos">Productos</a>
+                    </li>
+                    <li>
+                        <a href="#Acerca">Acerca</a>
+                    </li>
+                    <li><a href="#comoComprar">Como Comprar?</a></li>
+                    <li><a href="./pages/contact.html">Comunicate</a></li>
+                </ul>
+
+            </div>
+
+        </nav>
+        <!--
+        termina navbar
+    -->
+    </header>
+    <main class="index__main">
+        <!--
+    empieza slider
+-->
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="./imagenes/carrousel1.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="./imagenes/carrousel2.jpg" alt="" uk-cover>
+                </li>
+                <li>
+                    <img src="./imagenes/carrousel3.jpg" alt="" uk-cover>
+                </li>
+            </ul>
+
+            <a class="uk-slidenav-large uk-position-center-left uk-position-small uk-hidden-hover" href="#"
+                uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-slidenav-large uk-position-center-right uk-position-small uk-hidden-hover" href="#"
+                uk-slidenav-next uk-slideshow-item="next"></a>
+
+        </div>
+        <!--
+    termina slider
+-->
+        <!--
+    empieza card con texto "Acerca de Shen Te"
+-->
+        <div class="uk-margin">
+            <div id="Acerca" class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+                <div class="uk-card-media-left uk-cover-container">
+                    <img src="./imagenes/imagenAcercade.jpg" alt="" uk-cover>
+                    <canvas width="600" height="400"></canvas>
+                </div>
+                <div>
+                    <div class="uk-card-body">
+                        <h3 class="uk-card-title">Acerca de Shen Té</h3>
+                        <p class=" uk-text-justify">Nos diferenciarnos en hacer productos Premium, diseñados por sommeliers y tea blenders, con
+                            todos los cuidados para que el consumidor pueda descubrir un mundo de sabores y aromas.</p>
+                            <br>
+                        <p class=" uk-text-justify">Su paladar descubrirá sabores tradicionales, cítricos y en especias. Se sorprenderá con
+                            aromas florales y frutados con toques sutiles a menta. Terminará con una explosión de notas
+                            exóticas y únicas.</p>
+                    </div>
+                </div>
+            </div>
+            <!--
+    termina card con texto
+-->
+            <!--
+    Empieza productos(infusiones y accesorios)
+-->
+            <div id="index__productos__container ">
+                <div class="index__productos__containerProductos ">
+                    <h1 id="Productos">Productos</h1>
+                </div>
+                <div class="index__productos__container__productos__Titulos">
+                    <p>Infusiones</p>
+                </div>
+
+                <div>
+                    <div class="uk-child-width-1-3@m marginproductos" uk-grid
+                        uk-scrollspy="cls: uk-animation-fade; target: .uk-card; delay: 500; repeat: true">
+                        <div>
+                            <div class="uk-card index__Background__Cards__Productos uk-card-body">
+                                <img src="./imagenes/canela-manzana.png" class="uk-card-title"></img>
+                                <div>
+                                    <p>CT 15: Canela, Manzana, Miel y Naranja 50gr</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card index__Background__Cards__Productos uk-card-body">
+                                <img src="./imagenes/anis-naranja.png" class="uk-card-title"></img>
+                                <div>
+                                    <p>MM 10: Naranja, Rosa Mosqueta y Anís 50gr</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card  index__Background__Cards__Productos uk-card-body">
+                                <img src="./imagenes/limon-miel.png" class="uk-card-title"></img>
+                                <div>
+                                    <p>LS 07: Limón, Miel y Anís 50gr</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card index__Background__Cards__Productos uk-card-body">
+                                <img src="./imagenes/frutos-rojos.png" class="uk-card-title"></img>
+                                <div>
+                                    <p>CT 15: Canela,  Manzana, Miel y Naranja 50gr</p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card index__Background__Cards__Productos uk-card-body">
+                                <img src="./imagenes/menta-chocolate.png" class="uk-card-title"></img>
+                                <p>LS 10: Menta, Cacao y Avellanas 50gr</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="uk-card index__Background__Cards__Productos uk-card-body">
+                                <img src="./imagenes/manzanilla.png" class="uk-card-title"></img>
+                                <p>CS 09: Manzanilla, Tilo, Miel, Manzanilla 50gr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--
+    termina  productos
+-->
+            <!--
+    arranca mayorista y eventos 
+-->
+            <div>
+                <div class="uk-child-width-1-2@m uk-grid-match" uk-grid>
+                    <div id="comoComprar">
+                        <div class="uk-card index__mayoristas__container  uk-card-body"
+                            uk-scrollspy="cls: uk-animation-slide-left; repeat: true">
+                            <h3 class="uk-card-title">Mayoristas</h3>
+                            <p>¿Queres vender nuestros tés? Consulta precios de blends y accesorios para mayoristas.
+                                Contamos con productos de 1 kilo, 500 gramos y de 50 gramos. Y té de origen en hebras
+                                con diferentes granulometrias ideal para Blendistas.</p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card index__eventos__container  uk-card-body"
+                            uk-scrollspy="cls: uk-animation-slide-right; repeat: true">
+                            <h3 class="uk-card-title">Eventos</h3>
+                            <p>Ponemos especial empeño en aquellos eventos para los que nos contratan. Ofrecemos una
+                                amplia variedad de servicios. Desde una reunión, hasta un evento empresarial
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-margin">
+                <p uk-margin class="index__comunicate__container__botton">
+                    <button class="uk-button index__comunicate__botton uk-button-small"><a href="./pages/contact.html">Comunicate</a></button>
+                </p>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <div class="uk-section footer__container">
+                <div class="uk-container">
+
+                    <div class="index__footer__comunicate__container uk-child-width-1-4@m" uk-grid>
+                        <div>
+                            <h4 class="footer__titulos__border-botton">Quienes Somos</h4>
+                            <p>Shen Té´s nace como libre expresión del espíritu y de la naturaleza. Sabores y perfumes, cuya motivación emocional se funde en mágicos blends de Té.</p>
+                        </div>
+                        <div>
+                            <h4 class="footer__titulos__border-botton">Comunicate</h4>
+                            <p>Teléfonos: (+54) 11 6431-6343</p>
+                               <p> WhatsApp: +54 9 11 6431-6343</p>
+                               <p>Correo: info@shente.com</p> 
+                            <div class="index__footer__comunicate__imgs">
+                                <img width="20px" src="./imagenes/telefono.png" alt="">
+                                <img width="20px" src="./imagenes/mail.png" alt="">
+                                <img width="20px" src="./imagenes/whatsapp.png" alt="">
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="footer__titulos__border-botton" >Punto de Retiro</h4>
+                            <p>J. Buschiazzo 1030
+                                Don Torcuato, Tigre, Buenos Aires, Argentina
+                                </p>
+                        </div>
+                        <div>
+                            <h4 class="footer__titulos__border-botton">Formas de Pago</h4>
+                            <div><img src="./imagenes/mediosdepago.png" alt=""></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.15.13/dist/js/uikit-icons.min.js"></script>
+</body>
+
+</html>
